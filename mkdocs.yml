@@ -18,45 +18,51 @@ extra_css:
 
 nav:
   - Главная: index.md
+
   - Начало работы:
       - Обзор: getting-started/overview.md
       - Регистрация и вход: getting-started/registration-login.md
       - Интерфейс: getting-started/interface.md
-  - Магазины и Ozon:
-      - Обзор: stores/overview.md
-      - Создание магазина: stores/create-store.md
-      - Seller API: stores/seller-api.md
-      - Performance API: stores/performance-api.md
-      - Несколько ключей: stores/multiple-keys.md
-      - Налоги: stores/taxes.md
-  - Финансы:
-      - Обзор: finances/overview.md
-      - Прибыли и убытки: finances/profit-and-loss.md
-      - Планирование: finances/planning.md
-      - ДДС: finances/cashflow.md
-  - Аналитика:
-      - Обзор: analytics/overview.md
-      - Операционка: analytics/operations.md
-      - Юнитка: analytics/unit-economics.md
-      - Возвраты: analytics/returns.md
-  - Реклама:
-      - Внутренняя реклама: ads/internal-ads.md
-  - Поставки:
+
+  - Настройки и интеграции:
+      - Магазины и Ozon:
+          - Обзор: stores/overview.md
+          - Создание магазина: stores/create-store.md
+          - Seller API: stores/seller-api.md
+          - Performance API: stores/performance-api.md
+      - Себестоимость и модели:
+          - Модели: reports/models.md
+          - Себестоимость: reports/cost-price.md
+
+  - Аналитика и финансы:
+      - Финансы:
+          - Обзор: finances/overview.md
+          - Прибыли и убытки: finances/profit-and-loss.md
+          - Планирование: finances/planning.md
+          - ДДС: finances/cashflow.md
+      - Аналитика:
+          - Обзор: analytics/overview.md
+          - Операционка: analytics/operations.md
+          - Юнит-экономика: analytics/unit-economics.md
+          - Возвраты: analytics/returns.md
+      - Реклама:
+          - Внутренняя реклама: ads/internal-ads.md
+
+  - Управление поставками:
       - Планирование поставок: supplies/supply-planning.md
-  - Отчёты:
-      - Модели: reports/models.md
-      - Себестоимость: reports/cost-price.md
-  - Сценарии:
-      - Первые 7 дней: scenarios/first-week.md
+
+  - Сценарии и маршруты:
+      - Первые 7 дней в STPulse: scenarios/first-week.md
       - Поиск убыточных товаров: scenarios/find-unprofitable-products.md
       - Эффективность рекламы: scenarios/ads-efficiency.md
       - План поставок на месяц: scenarios/supply-plan-month.md
-  - FAQ:
+
+  - FAQ и поддержка:
       - Общие вопросы: faq/general-faq.md
       - Вопросы по API: faq/api-faq.md
       - Разные цифры с Ozon: faq/numbers-diff-faq.md
-  - Поддержка:
       - Контакты: support/contacts.md
+
 
 extra:
   cname: docs.stpulse.ru
