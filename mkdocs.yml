@@ -60,3 +60,10 @@ nav:
 
 extra:
   cname: docs.stpulse.ru
+
+plugins:
+  - search
+  - mkdocs-breadcrumbs-plugin:
+      delimiter: " / "
+      use_page_titles: true
+      home_text: "Главная"
