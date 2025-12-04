@@ -58,3 +58,5 @@ nav:
   - Поддержка:
       - Контакты: support/contacts.md
 
+extra:
+  cname: docs.stpulse.ru
