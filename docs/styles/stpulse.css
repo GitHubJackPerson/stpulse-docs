@@ -1,0 +1,83 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --st-blue: #2A7AFE;
+  --st-blue-light: #4DA6FF;
+  --st-bg: #FFFFFF;
+  --st-bg-soft: #F5F7FA;
+  --st-border: #E1E5EB;
+  --st-text: #1A1A1A;
+  --st-text-secondary: #6F7A8B;
+
+  --md-primary-fg-color: var(--st-blue);
+  --md-accent-fg-color: var(--st-blue-light);
+}
+
+/* Типографика */
+html, body, .md-typeset {
+  font-family: 'Inter', sans-serif;
+  color: var(--st-text);
+}
+
+/* Заголовки */
+.md-typeset h1 { font-size: 34px; font-weight: 600; }
+.md-typeset h2 { font-size: 24px; font-weight: 600; margin-top: 40px; }
+.md-typeset h3 { font-size: 20px; font-weight: 500; }
+
+/* Хедер и навигация */
+.md-header {
+  background: var(--st-bg) !important;
+  border-bottom: 1px solid var(--st-border);
+}
+
+.md-tabs {
+  border-bottom: 1px solid var(--st-border);
+}
+
+.md-nav__item .md-nav__link--active {
+  color: var(--st-blue) !important;
+  font-weight: 600;
+}
+
+/* Таблицы */
+.md-typeset table {
+  border: 1px solid var(--st-border);
+  background: var(--st-bg-soft);
+  border-collapse: collapse;
+}
+
+.md-typeset table th {
+  background: var(--st-bg-soft);
+  font-weight: 600;
+  border: 1px solid var(--st-border);
+}
+
+.md-typeset table td {
+  border: 1px solid var(--st-border);
+  padding: 10px 12px;
+}
+
+/* Кнопки */
+.md-button {
+  border-radius: 8px;
+  border: 1px solid var(--st-blue);
+  padding: 6px 14px;
+  color: var(--st-blue);
+}
+
+.md-button--primary {
+  background: var(--st-blue);
+  color: white;
+  border: none;
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+.md-typeset .admonition.note { border-color: var(--st-blue); }
+.md-typeset .admonition.tip { border-color: #2ECC71; }
+.md-typeset .admonition.warning { border-color: #FFB200; }
+.md-typeset .admonition.danger { border-color: #FF4D4D; }

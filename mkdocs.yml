@@ -1,1 +1,59 @@
-site_name: My Docs
+site_name: STPulse — База знаний
+site_url: https://docs.stpulse.ru
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+extra_css:
+  - styles/stpulse.css
+
+nav:
+  - Главная: index.md
+  - Начало работы:
+      - Обзор: getting-started/overview.md
+      - Регистрация и вход: getting-started/registration-login.md
+      - Интерфейс: getting-started/interface.md
+  - Магазины и Ozon:
+      - Обзор: stores/overview.md
+      - Создание магазина: stores/create-store.md
+      - Seller API: stores/seller-api.md
+      - Performance API: stores/performance-api.md
+      - Несколько ключей: stores/multiple-keys.md
+      - Налоги: stores/taxes.md
+  - Финансы:
+      - Обзор: finances/overview.md
+      - Прибыли и убытки: finances/profit-and-loss.md
+      - Планирование: finances/planning.md
+      - ДДС: finances/cashflow.md
+  - Аналитика:
+      - Обзор: analytics/overview.md
+      - Операционка: analytics/operations.md
+      - Юнитка: analytics/unit-economics.md
+      - Возвраты: analytics/returns.md
+  - Реклама:
+      - Внутренняя реклама: ads/internal-ads.md
+  - Поставки:
+      - Планирование поставок: supplies/supply-planning.md
+  - Отчёты:
+      - Модели: reports/models.md
+      - Себестоимость: reports/cost-price.md
+  - Сценарии:
+      - Первые 7 дней: scenarios/first-week.md
+      - Поиск убыточных товаров: scenarios/find-unprofitable-products.md
+      - Эффективность рекламы: scenarios/ads-efficiency.md
+      - План поставок на месяц: scenarios/supply-plan-month.md
+  - FAQ:
+      - Общие вопросы: faq/general-faq.md
+      - Вопросы по API: faq/api-faq.md
+      - Разные цифры с Ozon: faq/numbers-diff-faq.md
+  - Поддержка:
+      - Контакты: support/contacts.md
+
