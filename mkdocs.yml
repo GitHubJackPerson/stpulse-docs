@@ -8,6 +8,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.expand 
     - search.highlight
     - search.suggest
     - content.code.copy
