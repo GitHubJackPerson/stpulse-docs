@@ -102,3 +102,201 @@ html, body, .md-typeset {
     height: 1.4rem;
   }
 }
+
+/* ======================
+   Главная страница STPulse
+   ====================== */
+
+/* Hero-блок */
+.stp-hero {
+  background: linear-gradient(135deg, #f5f7ff, #ffffff);
+  border-radius: 18px;
+  padding: 32px 28px;
+  margin-bottom: 32px;
+  border: 1px solid var(--st-border);
+}
+
+.stp-hero-text h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.stp-hero-text p {
+  margin: 4px 0;
+  color: var(--st-text-secondary);
+}
+
+.stp-hero-actions {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.stp-hero-note {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: var(--st-text-secondary);
+}
+
+/* Кнопки */
+.stp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.16s ease, color 0.16s ease, box-shadow 0.16s ease, transform 0.08s ease;
+}
+
+.stp-btn-primary {
+  background: var(--st-blue);
+  border-color: var(--st-blue);
+  box-shadow: 0 8px 20px rgba(42, 122, 254, 0.18);
+}
+
+/* гарантируем белый текст поверх любых стилей темы */
+.md-typeset .stp-btn-primary {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+
+.stp-btn-primary:hover {
+  background: var(--st-blue-light);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(42, 122, 254, 0.22);
+}
+
+.stp-btn-ghost {
+  background: #ffffff;
+  color: var(--st-blue);
+  border-color: rgba(42, 122, 254, 0.35);
+}
+
+.stp-btn-ghost:hover {
+  background: #f3f6ff;
+  transform: translateY(-1px);
+}
+
+/* Карточки разделов */
+.stp-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+  margin: 16px 0 32px;
+}
+
+.stp-card {
+  display: block;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px 18px 20px;
+  border: 1px solid var(--st-border);
+  text-decoration: none;
+  color: var(--st-text);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.03);
+  transition: box-shadow 0.16s ease, transform 0.08s ease, border-color 0.16s ease, background 0.16s ease;
+}
+
+.stp-card:hover {
+  border-color: rgba(42, 122, 254, 0.55);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.07);
+  transform: translateY(-2px);
+  background: #f9fbff;
+}
+
+.stp-card-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: #f3f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.stp-card-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.stp-card p {
+  margin: 0;
+  font-size: 0.93rem;
+  color: var(--st-text-secondary);
+}
+
+/* Плашки-иллюстрации */
+.stp-image-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+  margin: 12px 0 32px;
+}
+
+.stp-pill {
+  border-radius: 18px;
+  padding: 16px 16px 18px;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.stp-pill-finances {
+  background: linear-gradient(135deg, #0ea964, #25c58a);
+}
+
+.stp-pill-analytics {
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+}
+
+.stp-pill-supplies {
+  background: linear-gradient(135deg, #f97316, #facc15);
+}
+
+.stp-pill-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.stp-pill-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.stp-pill p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Адаптивная подстройка */
+@media screen and (max-width: 640px) {
+  .stp-hero {
+    padding: 24px 18px;
+  }
+
+  .stp-hero-text h1 {
+    font-size: 26px;
+  }
+
+  .stp-hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
