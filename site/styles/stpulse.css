@@ -81,3 +81,24 @@ html, body, .md-typeset {
 .md-typeset .admonition.tip { border-color: #2ECC71; }
 .md-typeset .admonition.warning { border-color: #FFB200; }
 .md-typeset .admonition.danger { border-color: #FF4D4D; }
+
+/* ================
+   Улучшение навигации на узких экранах
+   ================ */
+
+/* Добавляем подпись "Меню" к бургер-кнопке */
+@media screen and (max-width: 76.1875em) {
+  .md-header__button.md-icon[for="__drawer"]::after {
+    content: " Меню";
+    font-size: 0.9rem;
+    margin-left: 0.3rem;
+    vertical-align: middle;
+    color: var(--st-text);
+  }
+
+  /* Чуть увеличим сам значок бургера */
+  .md-header__button.md-icon[for="__drawer"] svg {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+}
