@@ -20,10 +20,8 @@ nav:
   - Главная: index.md
 
   - Начало работы:
-      - Начало работы: getting-started/overview.md
       - Регистрация и вход: getting-started/registration-login.md
       - Тарифы: getting-started/tariffs.md
-      - Интерфейс: getting-started/interface.md
 
   - Настройки и интеграции:
       - Магазины и Ozon: stores/overview.md
@@ -34,13 +32,12 @@ nav:
       - Модели: reports/models.md
 
   - Аналитика и финансы:
-      - Финансы: finances/overview.md
+      - Обзор: analytics/overview.md
       - Прибыли и убытки: finances/profit-and-loss.md
-      - Планирование: finances/planning.md
-      - ДДС: finances/cashflow.md
-      - Аналитика: analytics/overview.md
       - Операционка: analytics/operations.md
       - Юнит-экономика: analytics/unit-economics.md
+      - Планирование: finances/planning.md
+      - ДДС: finances/cashflow.md
       - Возвраты: analytics/returns.md
       - Реклама: ads/internal-ads.md
 
