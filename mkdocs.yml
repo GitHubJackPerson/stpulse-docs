@@ -70,3 +70,15 @@ plugins:
       delimiter: " / "
       use_page_titles: true
       home_text: "Главная"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji
+  - tables
+  - toc:
+      permalink: true
