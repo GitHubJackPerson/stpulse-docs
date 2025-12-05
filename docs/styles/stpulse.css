@@ -300,3 +300,64 @@ html, body, .md-typeset {
     align-items: flex-start;
   }
 }
+
+/* ============================
+   Улучшение структуры левого меню
+   ============================ */
+
+.md-nav__list {
+  padding-left: 4px;
+}
+
+.md-nav__item {
+  margin: 2px 0;
+}
+
+.md-nav__item--section > .md-nav__link {
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.md-nav__item--nested > nav > .md-nav__list > .md-nav__item > .md-nav__link {
+  padding-left: 14px;
+  font-size: 0.92rem;
+}
+
+.md-nav__link--active {
+  font-weight: 600;
+}
+
+/* ============================
+   Структура левого меню
+   ============================ */
+
+/* лёгкая вертикальная плотность */
+.md-nav--primary .md-nav__item {
+  margin: 1px 0;
+}
+
+/* верхний уровень секций (например, "Аналитика и финансы") */
+.md-nav--primary > .md-nav__list > .md-nav__item > label.md-nav__link {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--st-text-secondary);
+}
+
+/* подгруппы внутри секции ("Финансы", "Аналитика", "Реклама") */
+.md-nav--primary .md-nav__item--nested > .md-nav__link {
+  font-weight: 600;
+  padding-left: 0.2rem;
+}
+
+/* страницы внутри подгруппы (обзоры, P&L и т.п.) */
+.md-nav--primary .md-nav__item--nested nav .md-nav__item > .md-nav__link {
+  padding-left: 1.5rem;
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+
+/* активная страница — чуть жирнее */
+.md-nav--primary .md-nav__link--active {
+  font-weight: 600;
+}
