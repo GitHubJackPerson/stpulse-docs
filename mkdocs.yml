@@ -22,6 +22,7 @@ nav:
   - Начало работы:
       - Начало работы: getting-started/overview.md
       - Регистрация и вход: getting-started/registration-login.md
+      - Тарифы: getting-started/tariffs.md
       - Интерфейс: getting-started/interface.md
 
   - Настройки и интеграции:
