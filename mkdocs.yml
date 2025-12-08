@@ -23,6 +23,7 @@ nav:
       - Начало работы: getting-started/overview.md
       - Регистрация и вход: getting-started/registration-login.md
       - Тарифы: getting-started/tariffs.md
+      - Тестовый период: getting-started/test-access.md
 
   - Настройки и интеграции:
       - Магазины и Ozon: stores/overview.md
