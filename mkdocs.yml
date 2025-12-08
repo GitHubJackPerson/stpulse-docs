@@ -30,8 +30,6 @@ nav:
       - Создание магазина: stores/create-store.md
       - Seller API: stores/seller-api.md
       - Performance API: stores/performance-api.md
-      - Себестоимость: reports/cost-price.md
-      - Модели: reports/models.md
 
   - Аналитика и финансы:
       - Обзор: analytics/overview.md
@@ -42,7 +40,9 @@ nav:
       - ДДС: finances/cashflow.md
       - Возвраты: analytics/returns.md
       - Реклама: ads/internal-ads.md
-
+      - Себестоимость: reports/cost-price.md
+      - Модели: reports/models.md
+      
   - Управление поставками:
       - Управление поставками: supplies/overview.md
       - Планирование поставок: supplies/supply-planning.md
