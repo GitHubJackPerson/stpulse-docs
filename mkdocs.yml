@@ -20,6 +20,7 @@ nav:
   - Главная: index.md
 
   - Начало работы:
+      - Начало работы: getting-started/overview.md
       - Регистрация и вход: getting-started/registration-login.md
       - Тарифы: getting-started/tariffs.md
 
