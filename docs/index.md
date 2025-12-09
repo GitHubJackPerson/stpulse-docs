@@ -67,7 +67,6 @@
 Самые часто используемые материалы. Хорошая точка входа, если вы уже знакомы с сервисом.
 
 - **[Создание магазина в STPulse](stores/create-store.md)**
-- **[Почему цифры отличаются от Ozon](faq/numbers-diff-faq.md)**
 - **[Прибыли и убытки (P&amp;L)](finances/profit-and-loss.md)**
 - **[Юнит-экономика](analytics/unit-economics.md)**
 
