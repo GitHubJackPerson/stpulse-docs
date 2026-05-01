@@ -45,7 +45,8 @@ nav:
       - Реклама: ads/internal-ads.md
       - Себестоимость: reports/cost-price.md
       - Модели: reports/models.md
-      
+      - Выкупы Озоном: reports/marketplace-buyouts.md
+
   - Управление поставками:
       - Управление поставками: supplies/overview.md
       - Планирование поставок: supplies/supply-planning.md
