@@ -31,6 +31,9 @@ nav:
       - Seller API: stores/seller-api.md
       - Performance API: stores/performance-api.md
 
+  - Пульс (дашборд):
+      - Главный дашборд: dashboard/overview.md
+
   - Аналитика и финансы:
       - Обзор: analytics/overview.md
       - Прибыли и убытки: finances/profit-and-loss.md
