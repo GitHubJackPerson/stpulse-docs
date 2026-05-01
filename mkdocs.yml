@@ -31,7 +31,6 @@ nav:
       - Создание магазина: stores/create-store.md
       - Seller API: stores/seller-api.md
       - Performance API: stores/performance-api.md
-      - Несколько ключей: stores/multiple-keys.md
       - Налоги: stores/taxes.md
 
   - Пульс:
