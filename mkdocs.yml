@@ -1,5 +1,5 @@
 site_name: STPulse — База знаний
-site_url: https://docs.stpulse.ru
+site_url: https://docs.app-stpulse.ru
 
 theme:
   name: material
@@ -74,7 +74,7 @@ nav:
       - Контакты: support/contacts.md
 
 extra:
-  cname: docs.stpulse.ru
+  cname: docs.app-stpulse.ru
 
 plugins:
   - search
