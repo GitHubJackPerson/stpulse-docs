@@ -1,3 +1,4 @@
-# Index of support
+# Поддержка
 
-- [contacts](/support/contacts/)
+- [Как задать вопрос](/support/how-to-ask/)
+- [Контакты](/support/contacts/)
