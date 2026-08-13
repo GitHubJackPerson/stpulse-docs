@@ -48,6 +48,7 @@ nav:
       - Обзор: analytics/overview.md
       - Операционка: analytics/operations.md
       - Юнит-экономика: analytics/unit-economics.md
+      - Журнал событий: analytics/events.md
 
   - Товары:
       - Обзор: products/overview.md
