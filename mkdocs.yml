@@ -59,6 +59,7 @@ nav:
   - Поставки:
       - Обзор: supplies/overview.md
       - Планирование поставок: supplies/supply-planning.md
+      - Остатки: supplies/stocks.md
 
   - Сценарии:
       - Обзор: scenarios/overview.md
