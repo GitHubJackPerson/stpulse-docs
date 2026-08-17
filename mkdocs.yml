@@ -56,7 +56,7 @@ nav:
       - Возвраты: analytics/returns.md
       - Реклама: ads/internal-ads.md
 
-  - Поставки:
+  - Логистика:
       - Обзор: supplies/overview.md
       - Планирование поставок: supplies/supply-planning.md
       - Остатки: supplies/stocks.md

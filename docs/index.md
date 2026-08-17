@@ -100,7 +100,7 @@
 
   <div class="stp-pill stp-pill-supplies">
     <div class="stp-pill-icon">🚚</div>
-    <div class="stp-pill-title">Поставки</div>
+    <div class="stp-pill-title">Логистика</div>
     <p>Планирование поставок и контроль складских остатков.</p>
   </div>
 
