@@ -60,6 +60,7 @@ nav:
       - Обзор: supplies/overview.md
       - Планирование поставок: supplies/supply-planning.md
       - Остатки: supplies/stocks.md
+      - Поставки на Ozon: supplies/incoming.md
 
   - Сценарии:
       - Обзор: scenarios/overview.md
