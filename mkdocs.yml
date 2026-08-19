@@ -61,6 +61,7 @@ nav:
       - Планирование поставок: supplies/supply-planning.md
       - Остатки: supplies/stocks.md
       - Поставки на Ozon: supplies/incoming.md
+      - Склады Ozon: supplies/warehouses.md
 
   - Сценарии:
       - Обзор: scenarios/overview.md
