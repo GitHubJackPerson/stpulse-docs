@@ -62,6 +62,7 @@ nav:
       - Остатки: supplies/stocks.md
       - Поставки на Ozon: supplies/incoming.md
       - Склады Ozon: supplies/warehouses.md
+      - Карта логистики: supplies/logistics-map.md
 
   - Сценарии:
       - Обзор: scenarios/overview.md
