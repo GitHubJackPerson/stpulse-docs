@@ -64,6 +64,7 @@ nav:
       - Поставки на Ozon: supplies/incoming.md
       - Склады Ozon: supplies/warehouses.md
       - Карта логистики: supplies/logistics-map.md
+      - Автобронирование слотов: supplies/timeslots.md
 
   - Сценарии:
       - Обзор: scenarios/overview.md
