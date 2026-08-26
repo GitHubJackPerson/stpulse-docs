@@ -43,6 +43,7 @@ nav:
       - Планирование: finances/planning.md
       - Себестоимость: reports/cost-price.md
       - Выкупы Озоном: reports/marketplace-buyouts.md
+      - Самовыкупы: finances/self-buyouts.md
 
   - Аналитика:
       - Обзор: analytics/overview.md
