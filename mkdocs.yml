@@ -67,6 +67,9 @@ nav:
       - Карта логистики: supplies/logistics-map.md
       - Автобронирование слотов: supplies/timeslots.md
 
+  - Акции:
+      - Аналитика акций: promos/actions.md
+
   - Сценарии:
       - Обзор: scenarios/overview.md
       - Первая неделя: scenarios/first-week.md
