@@ -70,6 +70,7 @@ nav:
 
   - Акции:
       - Аналитика акций: promos/actions.md
+      - Автосценарии: promos/auto-scenarios.md
 
   - Сценарии:
       - Обзор: scenarios/overview.md
