@@ -1,9 +1,11 @@
-site_name: STPulse — База знаний
+site_name: Расчётус — База знаний
 site_url: https://docs.app-stpulse.ru
 
 theme:
   name: material
   language: ru
+  logo: assets/logo_e.png
+  favicon: assets/logo_e.png
   features:
     - navigation.tabs
     - navigation.top
@@ -85,7 +87,6 @@ nav:
       - Расхождение цифр с Ozon: faq/numbers-diff-faq.md
       - Вопросы по API: faq/api-faq.md
       - Как задать вопрос: support/how-to-ask.md
-      - Контакты: support/contacts.md
 
 extra:
   cname: docs.app-stpulse.ru

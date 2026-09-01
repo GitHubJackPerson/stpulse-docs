@@ -1,16 +1,19 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  --st-blue: #2A7AFE;
-  --st-blue-light: #4DA6FF;
+  /* Общий стиль Расчётуса (v3): цитроновый акцент вместо синего.
+     --st-blue → оливковый lime-ink (читается ссылкой/активным на белом),
+     --st-blue-light → яркий цитрон (заливки/ховеры). Каскадирует по всему файлу. */
+  --st-blue: #5f7a08;
+  --st-blue-light: #a9c811;
   --st-bg: #FFFFFF;
   --st-bg-soft: #F5F7FA;
   --st-border: #E1E5EB;
-  --st-text: #1A1A1A;
-  --st-text-secondary: #6F7A8B;
+  --st-text: #14181a;
+  --st-text-secondary: #5c655e;
 
   --md-primary-fg-color: var(--st-blue);
-  --md-accent-fg-color: var(--st-blue-light);
+  --md-accent-fg-color: var(--st-blue);
 }
 
 /* Типографика */
