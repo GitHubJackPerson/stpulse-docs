@@ -42,7 +42,7 @@
 
   <a class="stp-card" href="supplies/overview/">
     <div class="stp-card-icon">📦</div>
-    <div class="stp-card-title">Управление поставками</div>
+    <div class="stp-card-title">Логистика</div>
     <p>Планирование поставок и контроль остатков.</p>
   </a>
 
@@ -76,9 +76,9 @@
 
 > Обновляйте этот список при релизах — это повышает ценность базы знаний.
 
-- Добавлен раздел **Управление поставками** → [Планирование поставок](supplies/supply-planning.md)
-- Обновлены инструкции по **Seller API** и **Performance API**
-- Улучшен раздел **FAQ по API** → [Вопросы по API](faq/api-faq.md)
+- Новый раздел **Акции** → [Аналитика акций](promos/actions.md) и [Автосценарии](promos/auto-scenarios.md)
+- Добавлена **Карта логистики** → [Карта](supplies/logistics-map.md) и [Автобронирование слотов](supplies/timeslots.md)
+- Раздел **Финансы** пополнен → [Самовыкупы](finances/self-buyouts.md), а в Аналитике — [Журнал событий](analytics/events.md)
 
 ---
 
