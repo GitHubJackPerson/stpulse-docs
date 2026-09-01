@@ -1,0 +1,3410 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.app-stpulse.ru/analytics/unit-economics/">
+      
+      
+        <link rel="prev" href="../operations/">
+      
+      
+        <link rel="next" href="../coinvest/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logo_e.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Юнит-экономика - Расчётус — База знаний</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../styles/stpulse.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#-" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Расчётус — База знаний" class="md-header__button md-logo" aria-label="Расчётус — База знаний" data-md-component="logo">
+      
+  <img src="../../assets/logo_e.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Расчётус — База знаний
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Юнит-экономика
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Главная
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../getting-started/overview/" class="md-tabs__link">
+          
+  
+  
+  Начало работы
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../stores/overview/" class="md-tabs__link">
+          
+  
+  
+  Магазин и интеграции
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../dashboard/overview/" class="md-tabs__link">
+          
+  
+  
+  Пульс
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../finances/overview/" class="md-tabs__link">
+          
+  
+  
+  Финансы
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../overview/" class="md-tabs__link">
+          
+  
+  
+  Аналитика
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../products/overview/" class="md-tabs__link">
+          
+  
+  
+  Товары
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../supplies/overview/" class="md-tabs__link">
+          
+  
+  
+  Логистика
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../promos/actions/" class="md-tabs__link">
+          
+  
+  
+  Акции
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../scenarios/overview/" class="md-tabs__link">
+          
+  
+  
+  Сценарии
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/overview/" class="md-tabs__link">
+          
+  
+  
+  FAQ и поддержка
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Расчётус — База знаний" class="md-nav__button md-logo" aria-label="Расчётус — База знаний" data-md-component="logo">
+      
+  <img src="../../assets/logo_e.png" alt="logo">
+
+    </a>
+    Расчётус — База знаний
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Начало работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Начало работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/registration-login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Регистрация и вход
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Интерфейс
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/tariffs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Тарифы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/test-access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Тестовый период
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Магазин и интеграции
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Магазин и интеграции
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/create-store/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Создание магазина
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/seller-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seller API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/performance-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Performance API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/taxes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Налоги
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Пульс
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Пульс
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главный дашборд
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Финансы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Финансы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/profit-and-loss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Прибыли и убытки
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/cashflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Движение денежных средств
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Планирование
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/cost-price/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Себестоимость
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/marketplace-buyouts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Выкупы Озоном
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/self-buyouts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Самовыкупы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Аналитика
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Аналитика
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Операционка
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Юнит-экономика
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Юнит-экономика
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Где найти и общий вид
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Выбор периода
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Три режима группировки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-sku" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Роли SKU — пилюли над таблицей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Фильтр кампаний
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Поиск и быстрые фильтры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Поиск и быстрые фильтры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск по артикулам
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Избранное — следить за узким списком
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-90-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Метрики в таблице — 90+ показателей через 6 наборов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Метрики в таблице — 90+ показателей через 6 наборов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Свои наборы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        «Скрыть лишние»
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Метрики без данных скрыты автоматически
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-abc-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. ABC-анализ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Цветовые правила (тепловая карта)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Попап деталей артикула
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Попап деталей артикула">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вкладка «Кампании»
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вкладка «Поисковые запросы»
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Карточки артикулов и попап моделей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Сценарии использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Сценарии использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск убыточных товаров
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Аудит рекламы по магазину
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск точек роста
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Подготовка к закупке
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сбор семантики для новой карточки
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Что важно помнить
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые ошибки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coinvest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Соинвест (СПП)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Журнал событий
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Товары
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Товары
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Модели артикулов
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../returns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Возвраты
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ads/internal-ads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Реклама
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Логистика
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Логистика
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/supply-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Планирование поставок
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/stocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Остатки
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/stock-fixations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Остатки к возмещению
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/incoming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поставки на Ozon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/warehouses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Склады Ozon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/logistics-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Карта логистики
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supplies/timeslots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Автобронирование слотов
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Акции
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Акции
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../promos/actions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Аналитика акций
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../promos/auto-scenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Автосценарии
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Сценарии
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Сценарии
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/first-week/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Первая неделя
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/find-unprofitable-products/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поиск убыточных товаров
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/ads-efficiency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Эффективность рекламы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/supply-plan-month/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    План поставок на месяц
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ и поддержка
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    FAQ и поддержка
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/general-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Общие вопросы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/numbers-diff-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Расхождение цифр с Ozon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/api-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Вопросы по API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../support/how-to-ask/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как задать вопрос
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Где найти и общий вид
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Выбор периода
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Три режима группировки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-sku" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Роли SKU — пилюли над таблицей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Фильтр кампаний
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Поиск и быстрые фильтры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Поиск и быстрые фильтры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск по артикулам
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Избранное — следить за узким списком
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-90-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Метрики в таблице — 90+ показателей через 6 наборов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Метрики в таблице — 90+ показателей через 6 наборов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Свои наборы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        «Скрыть лишние»
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Метрики без данных скрыты автоматически
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-abc-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. ABC-анализ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Цветовые правила (тепловая карта)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Попап деталей артикула
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Попап деталей артикула">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вкладка «Кампании»
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вкладка «Поисковые запросы»
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Карточки артикулов и попап моделей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Сценарии использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Сценарии использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск убыточных товаров
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Аудит рекламы по магазину
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск точек роста
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Подготовка к закупке
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сбор семантики для новой карточки
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Что важно помнить
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые ошибки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><a href="/">Главная</a> / Аналитика</p>
+<h1 id="-">Юнит-экономика<a class="headerlink" href="#-" title="Permanent link">&para;</a></h1>
+<p>«Юнит-экономика» (или «Юнитка») показывает экономику <strong>по каждому товару (SKU)</strong> за выбранный период: для каждого артикула — выручка, себестоимость, реклама, маржа, ROI, рентабельность, конверсии. Если Операционка отвечает на вопрос «когда» (по дням), то Юнитка — на вопрос «что» (по товарам).</p>
+<p>В отчёте десятки настроек: режимы группировки, классификация ролей, фильтр по кампаниям, попап с детализацией, ABC-анализ, цветовые правила, более 90 метрик через 6 предустановленных наборов. Этот раздел проводит по всем возможностям.</p>
+<p>Данные доступны только для Ozon.</p>
+<hr />
+<h2 id="1">1. Где найти и общий вид<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Откройте <strong>Аналитика → Юнит-экономика</strong>.</li>
+<li>Выберите магазин (или несколько) в левом меню.</li>
+<li>По умолчанию открывается режим «Артикулы» за последние 30 дней.</li>
+</ol>
+<p>Сверху — toolbar с настройками. Под ним — <strong>строка пилюль с ролями SKU</strong>. Дальше — таблица: артикулы в строках, метрики в столбцах.</p>
+<hr />
+<h2 id="2">2. Выбор периода<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>Кнопка <strong>«Период»</strong> открывает попап:</p>
+<ul>
+<li><strong>Сетка месяцев</strong> для выбора одного или нескольких подряд.</li>
+<li><strong>Быстрые кнопки</strong> «7 дней», «14 дней», «28 дней».</li>
+<li><strong>Любой произвольный диапазон</strong> — выберите два месяца, отчёт пересчитается.</li>
+</ul>
+<p>В отличие от Операционки, у Юнитки нет жёсткого ограничения 2 месяца — можно выбрать квартал, полугодие или год. На длинных периодах расчёт занимает чуть дольше для крупных магазинов.</p>
+<hr />
+<h2 id="3">3. Три режима группировки<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>Чипы в toolbar переключают между:</p>
+<ul>
+<li><strong>Артикулы</strong> — плоский список всех SKU магазина с пагинацией по 50 за страницу.</li>
+<li><strong>Категории</strong> — группы по категориям Ozon, с возможностью раскрыть и увидеть артикулы внутри. Подгрузка lazy: первые 5 групп раскрываются автоматически, остальные — по клику.</li>
+<li><strong>Модели</strong> — группы по моделям, которые вы назначили (см. раздел <a href="../../reports/models/">Модели</a>).</li>
+</ul>
+<p>В режимах «Категории» и «Модели» под каждой группой считаются агрегированные метрики (суммарная прибыль, средняя маржа и т.д.) — удобно сравнивать категории между собой.</p>
+<hr />
+<h2 id="4-sku">4. Роли SKU — пилюли над таблицей<a class="headerlink" href="#4-sku" title="Permanent link">&para;</a></h2>
+<p>Это уникальная фича Юнитки: автоматическая классификация всех ваших артикулов по ролям. Над таблицей вы видите четыре пилюли:</p>
+<table>
+<thead>
+<tr>
+<th>Роль</th>
+<th>Критерий</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>💰 <strong>Кэш-машины</strong></td>
+<td>Чистая маржа ≥ 15%</td>
+</tr>
+<tr>
+<td>↑ <strong>Драйверы роста</strong></td>
+<td>Маржа ≥ 5%, заказы выросли на 20%+ к прошлому периоду</td>
+</tr>
+<tr>
+<td>≡ <strong>Нейтральные</strong></td>
+<td>Прибыль есть, рост вялый</td>
+</tr>
+<tr>
+<td>↓ <strong>Убыточные</strong></td>
+<td>Прибыль за период отрицательная</td>
+</tr>
+</tbody>
+</table>
+<p>Каждая пилюля показывает: <strong>количество SKU</strong> этой роли + <strong>суммарную прибыль</strong> (зелёная для плюсовых, красная для убыточных).</p>
+<p><strong>Клик по пилюле</strong> = фильтр таблицы по этой роли. Активная пилюля подсвечивается, появляется кнопка «Сбросить». Можно выбрать несколько ролей сразу.</p>
+<hr />
+<h2 id="5">5. Фильтр кампаний<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<p>Кнопка <strong>«Кампании»</strong> открывает мультиселект-дропдаун:</p>
+<ul>
+<li><strong>Поиск</strong> по названию кампании.</li>
+<li><strong>Чипы по статусам</strong> с счётчиками: Активная, Архивная, Остановлена, Черновик.</li>
+<li><strong>Чекбоксы</strong> для конкретных кампаний.</li>
+</ul>
+<p>После выбора одной или нескольких кампаний таблица перерисовывается: остаются только артикулы, которые в этих кампаниях участвуют. Метрики считаются именно по этим товарам.</p>
+<p>Полезно для: сравнения кампаний между собой, аудита конкретной кампании по её артикулам, проверки новой кампании после запуска.</p>
+<hr />
+<h2 id="6">6. Поиск и быстрые фильтры<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<h3 id="_1">Поиск по артикулам<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<p>Поле поиска в шапке принимает offer_id, SKU или часть названия. Срабатывает с задержкой 400 мс. Крестик справа очищает.</p>
+<h3 id="_2">Избранное — следить за узким списком<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>Чип со звёздочкой (слева от чипа «Архивные»). Клик открывает список избранного — там отмечаете товары галочками или загружаете их из файла. Переключатель <strong>«Показывать только избранные»</strong> оставляет в таблице лишь отмеченные артикулы.</p>
+<p>Удобно, когда следите за узкой группой товаров и не хотите каждый раз искать их вручную. Список избранного в Юнитке — свой, отдельный от списка в Логистике.</p>
+<hr />
+<h2 id="7-90-6">7. Метрики в таблице — 90+ показателей через 6 наборов<a class="headerlink" href="#7-90-6" title="Permanent link">&para;</a></h2>
+<p>В Юнитке очень много метрик. Чтобы не показывать всё подряд, есть <strong>6 готовых наборов</strong>:</p>
+<ul>
+<li><strong>Прибыльность</strong> — основа: выручка, прибыль, маржинальность, ROI, ABC.</li>
+<li><strong>На 1 единицу</strong> — экономика per-unit: средняя цена, прибыль на единицу, точка безубыточности.</li>
+<li><strong>Воронка</strong> — показы → клики → корзины → заказы с конверсиями (и в разрезе органика/реклама).</li>
+<li><strong>Эффективность рекламы</strong> — Performance API: CPM, CPC, CPO, CTR, ROAS, ДРР.</li>
+<li><strong>Реклама и Маркетинг</strong> — рекламные расходы по типам (8 рекламных + 16 маркетинговых).</li>
+<li><strong>Остатки</strong> — складские показатели: FBO/FBS, оборачиваемость, дни запаса, стоимость остатков.</li>
+</ul>
+<p>Чипы в toolbar переключают между ними. Активный набор показывает только свои колонки в таблице.</p>
+<h3 id="_3">Свои наборы<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>Кнопка <strong>«+ Набор»</strong> позволяет собрать собственный набор:</p>
+<ol>
+<li>Откройте дерево из 90+ метрик с чекбоксами.</li>
+<li>Отметьте те, что нужны.</li>
+<li>Дайте имя.</li>
+<li>Сохраните — появится ваш чип в toolbar.</li>
+</ol>
+<h3 id="_4">«Скрыть лишние»<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>Переключатель: показывать только метрики из активного набора (чисто) или показывать все, но метрики вне набора с приглушённой прозрачностью 35%.</p>
+<h3 id="_5">Метрики без данных скрыты автоматически<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>Если для всех артикулов в текущем периоде какая-то метрика везде ноль — её колонка не показывается. Это уменьшает шум.</p>
+<hr />
+<h2 id="8-abc-">8. ABC-анализ<a class="headerlink" href="#8-abc-" title="Permanent link">&para;</a></h2>
+<p>В наборе «Прибыльность» есть две специальные колонки: <strong>ABC по доходу</strong> и <strong>ABC по прибыли</strong>. Каждый артикул получает бейдж:</p>
+<ul>
+<li><strong>A</strong> (зелёный) — товар входит в группу, дающую первые <strong>80% результата</strong>.</li>
+<li><strong>B</strong> (янтарный) — следующие <strong>15%</strong>.</li>
+<li><strong>C</strong> (красный) — последние <strong>5%</strong>.</li>
+<li><strong>—</strong> (серый) — нет продаж за период.</li>
+</ul>
+<p>Это правило Парето в действии. Сортируйте таблицу по ABC: сверху A → дальше B → внизу C — сразу видна структура ассортимента.</p>
+<hr />
+<h2 id="9">9. Цветовые правила (тепловая карта)<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
+<p>Цветовые правила — это <strong>тепловая карта</strong> (heatmap): значения в столбце заливаются градиентом, и аномалии видно сразу, без сортировки.</p>
+<p>В Юнитке цвета работают <strong>по столбцам</strong> (в отличие от Операционки, где по строкам). В заголовке любого столбца есть <strong>иконка кисточки</strong>: клик открывает попап с настройкой цвета.</p>
+<ul>
+<li>Можно выбрать палитру (градиент от красного к зелёному, от белого к синему и т.д.).</li>
+<li>Минимальные значения подсвечиваются одним оттенком, максимальные — другим.</li>
+<li>Минимальная интенсивность цвета 12% (чтобы текст оставался читаемым).</li>
+</ul>
+<hr />
+<h2 id="10">10. Попап деталей артикула<a class="headerlink" href="#10" title="Permanent link">&para;</a></h2>
+<p>Кликните на карточку любого артикула в таблице — откроется попап с двумя вкладками.</p>
+<h3 id="_6">Вкладка «Кампании»<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>Показывает, в каких рекламных кампаниях участвует этот SKU и с какими результатами:</p>
+<ul>
+<li>Расход</li>
+<li>Показы, клики, CTR</li>
+<li>Корзины, заказы, модели</li>
+<li>Выручка от рекламы</li>
+<li>ДРР, CPO</li>
+</ul>
+<p>Это самый быстрый способ увидеть рекламную картину по конкретному товару — какие кампании дают результат, какие не дают.</p>
+<h3 id="_7">Вкладка «Поисковые запросы»<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>Показывает реальные запросы покупателей, по которым находят этот товар:</p>
+<ul>
+<li>Уникальные пользователи</li>
+<li>Просмотры</li>
+<li>Заказы</li>
+<li>Конверсия (просмотры → заказы)</li>
+<li>Позиция в выдаче</li>
+</ul>
+<p>Сортируйте по любой колонке.</p>
+<hr />
+<h2 id="11">11. Карточки артикулов и попап моделей<a class="headerlink" href="#11" title="Permanent link">&para;</a></h2>
+<p>Каждая строка артикула в таблице показывает: фото товара, offer_id жирным, SKU серым.</p>
+<p>Кнопка <strong>«Модели»</strong> в toolbar открывает попап управления группировкой (тот же что в Операционке). Можно назначить модель вручную для конкретного SKU или массово через XLSX-импорт.</p>
+<hr />
+<h2 id="12">12. Сценарии использования<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
+<h3 id="_8">Поиск убыточных товаров<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Кликните пилюлю <strong>«Убыточные»</strong> над таблицей.</li>
+<li>В таблице остаются только SKU с отрицательной прибылью.</li>
+<li>Кликните на карточку артикула — откроется попап с детализацией по кампаниям и поисковым запросам.</li>
+</ol>
+<h3 id="_9">Аудит рекламы по магазину<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Включите набор <strong>«Эффективность рекламы»</strong>, период «30 дней».</li>
+<li>Сортировка по столбцу <strong>«ДРР рекламный»</strong> убыв.</li>
+<li>Топ-10 — самые «дорогие» в относительном выражении.</li>
+<li>По каждому → попап → вкладка «Кампании» — видно, в каких кампаниях расход концентрируется.</li>
+</ol>
+<h3 id="_10">Поиск точек роста<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Кликните пилюлю <strong>«Драйверы роста»</strong>.</li>
+<li>Видите артикулы, у которых маржа ≥ 5% и заказы растут.</li>
+<li>По каждому проверьте текущую рекламу через попап.</li>
+</ol>
+<h3 id="_11">Подготовка к закупке<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Активный набор «Остатки», сортировка по «Дням запаса» возр.</li>
+<li>Топ списка — товары с малым запасом.</li>
+<li>Можно скрестить с пилюлями ролей — посмотреть, какие из этих позиций «Кэш-машины» или «Драйверы роста».</li>
+</ol>
+<h3 id="_12">Сбор семантики для новой карточки<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Откройте артикул, продажи которого вас устраивают.</li>
+<li>→ попап → вкладка «Поисковые запросы».</li>
+<li>Сортировка по «Уникальные пользователи».</li>
+<li>Видите, по каким запросам реально находят этот товар на Ozon.</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Пример анализа артикула</p>
+<p>Артикул «Сумка кожаная женская» за 30 дней:</p>
+<ul>
+<li>Выручка 180 000 ₽, продажи 60 шт, средняя цена 3 000 ₽</li>
+<li>Себестоимость 90 000 ₽</li>
+<li>Озон комиссия + фулфилмент 36 000 ₽</li>
+<li>Реклама 18 000 ₽, ДРР рекламный 18%</li>
+<li><strong>Прибыль 36 000 ₽, маржа 20%</strong>, бейдж ABC = B</li>
+</ul>
+<p>Артикул в роли «Кэш-машина» (маржа выше 15%). Через попап → «Кампании» — видно, в каких кампаниях этот товар откручивается и с каким ДРР по каждой. Через «Поисковые запросы» — по каким запросам его находят.</p>
+</div>
+<hr />
+<h2 id="13">13. Что важно помнить<a class="headerlink" href="#13" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Подсказка</p>
+<p>Не пытайтесь освоить все 90 метрик сразу. Начните с набора «Прибыльность» — он закрывает большинство задач. Когда поймёте, чего не хватает — переключайтесь на нужный набор или собирайте свой.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Подсказка</p>
+<p>Юнитка показывает данные по периоду без разбивки по дням. Если нужна динамика по дням — открывайте Операционку.</p>
+</div>
+<hr />
+<h2 id="_13">Частые ошибки<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Анализ только выручки без учёта прибыли.</strong> Артикул с выручкой 500 000 ₽ может приносить +50 000 ₽ прибыли или −10 000 ₽ убытка. Без колонки «Прибыль» эти кейсы выглядят одинаково.</li>
+<li><strong>Сравнение товаров из разных категорий без фильтрации.</strong> В разных категориях разная структура расходов и маржи. Сравнения внутри одной категории дают более корректную картину.</li>
+<li><strong>Использование слишком короткого периода.</strong> За 7 дней может быть 2 заказа на артикул, и любая случайная флуктуация искажает выводы. Минимум 30 дней для устойчивых данных.</li>
+<li><strong>Игнорирование пилюль ролей.</strong> Один клик «Убыточные» открывает все проблемные товары — это самый быстрый фильтр.</li>
+<li><strong>Не используют попап деталей артикула.</strong> Без него Юнитка остаётся «таблицей чисел». Попап показывает в каких кампаниях и по каким запросам этот товар реально работает.</li>
+</ul>
+<hr />
+<h2 id="_14">Частые вопросы<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<p><strong>Что показывает столбец «Маржинальность»?</strong>
+Долю прибыли в выручке артикула за период. Считается по чистой прибыли — с учётом всех расходов: себестоимости, комиссии, фулфилмента, рекламы.</p>
+<p><strong>Что показывает столбец «ROI»?</strong>
+Возврат на вложенную себестоимость. Удобен, когда нужно сравнить эффективность вложений независимо от объёма продаж.</p>
+<p><strong>Что значит роль «Драйвер роста», если у меня нет рекламы?</strong>
+Это значит: маржа выше 5% И заказы выросли на 20%+ к прошлому периоду. Товар разгоняется органически. Реклама не обязательна для попадания в эту роль.</p>
+<p><strong>Почему в Юнитке нет графиков по дням?</strong>
+По дизайну. Юнитка — это «снимок» по артикулам за период. Если нужна динамика по дням — открывайте Операционку.</p>
+<p><strong>Что делать с убыточными артикулами?</strong>
+Кликните пилюлю «Убыточные» → откройте каждый → попап «Кампании» → видно структуру рекламы по этому товару. Подробный сценарий: <a href="../../scenarios/find-unprofitable-products/">Поиск убыточных товаров</a>.</p>
+<p><strong>ABC-анализ — это что?</strong>
+Распределение товаров на три группы по доле в результате: A — топ (первые 80% результата), B — середина (15%), C — хвост (5%). Нумерация автоматическая, считается отдельно по доходу и по прибыли.</p>
+<p><strong>Что значат колонки в попапе «Поисковые запросы»?</strong>
+Это запросы покупателей в поиске Ozon, по которым ваш товар реально показывался. <strong>Уникальные пользователи</strong> — сколько разных людей искали. <strong>Просмотры</strong> — сколько раз показалась карточка. <strong>Заказы</strong> — сколько купили. <strong>Конверсия</strong> = заказы / просмотры. <strong>Позиция</strong> — где ваш товар в выдаче по этому запросу.</p>
+<p><strong>Можно ли видеть рекламные расходы из транзакций отдельно от Performance API?</strong>
+Да. Набор <strong>«Реклама и Маркетинг»</strong> показывает рекламные строки из финансовых транзакций (8 типов рекламы + 16 типов маркетинговых акций Ozon). Набор <strong>«Эффективность рекламы»</strong> показывает метрики Performance API (CPM, CPC, CPO, ROAS и т.д.). Это разные источники данных, оба полезны.</p>
+<hr />
+<p>Юнитка — главный инструмент для анализа экономики <strong>по товарам</strong>. Полные данные по каждому SKU в одной таблице: финансы, реклама, воронка, конверсии, остатки. Дальше — фильтры, наборы метрик, попапы для детализации.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "navigation.expand", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

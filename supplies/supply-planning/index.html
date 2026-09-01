@@ -1,0 +1,3547 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.app-stpulse.ru/supplies/supply-planning/">
+      
+      
+        <link rel="prev" href="../overview/">
+      
+      
+        <link rel="next" href="../stocks/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logo_e.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Планирование поставок - Расчётус — База знаний</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../styles/stpulse.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Расчётус — База знаний" class="md-header__button md-logo" aria-label="Расчётус — База знаний" data-md-component="logo">
+      
+  <img src="../../assets/logo_e.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Расчётус — База знаний
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Планирование поставок
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Главная
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../getting-started/overview/" class="md-tabs__link">
+          
+  
+  
+  Начало работы
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../stores/overview/" class="md-tabs__link">
+          
+  
+  
+  Магазин и интеграции
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../dashboard/overview/" class="md-tabs__link">
+          
+  
+  
+  Пульс
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../finances/overview/" class="md-tabs__link">
+          
+  
+  
+  Финансы
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../analytics/overview/" class="md-tabs__link">
+          
+  
+  
+  Аналитика
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../products/overview/" class="md-tabs__link">
+          
+  
+  
+  Товары
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../overview/" class="md-tabs__link">
+          
+  
+  
+  Логистика
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../promos/actions/" class="md-tabs__link">
+          
+  
+  
+  Акции
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../scenarios/overview/" class="md-tabs__link">
+          
+  
+  
+  Сценарии
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/overview/" class="md-tabs__link">
+          
+  
+  
+  FAQ и поддержка
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Расчётус — База знаний" class="md-nav__button md-logo" aria-label="Расчётус — База знаний" data-md-component="logo">
+      
+  <img src="../../assets/logo_e.png" alt="logo">
+
+    </a>
+    Расчётус — База знаний
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Начало работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Начало работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/registration-login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Регистрация и вход
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Интерфейс
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/tariffs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Тарифы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/test-access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Тестовый период
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Магазин и интеграции
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Магазин и интеграции
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/create-store/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Создание магазина
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/seller-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seller API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/performance-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Performance API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/taxes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Налоги
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Пульс
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Пульс
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главный дашборд
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Финансы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Финансы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/profit-and-loss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Прибыли и убытки
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/cashflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Движение денежных средств
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Планирование
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/cost-price/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Себестоимость
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/marketplace-buyouts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Выкупы Озоном
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../finances/self-buyouts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Самовыкупы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Аналитика
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Аналитика
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytics/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytics/operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Операционка
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytics/unit-economics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Юнит-экономика
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytics/coinvest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Соинвест (СПП)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytics/events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Журнал событий
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Товары
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Товары
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Модели артикулов
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytics/returns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Возвраты
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ads/internal-ads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Реклама
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Логистика
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Логистика
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Планирование поставок
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Планирование поставок
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Где найти и общий вид
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Обновление данных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Параметры расчёта потребности
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чипы статусов запаса
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Фильтры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Фильтры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Категории
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Избранное
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Фильтр по наличию
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Структура таблицы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Структура таблицы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Левая часть (закреплена)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Правая часть — кластеры
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Управление кластерами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Управление столбцами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Подсорт — главное действие
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Подсорт — главное действие">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Заполнить автоматически
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ручная корректировка
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Очистить
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Режим «только подсорт»
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Сборочный лист и импорт/экспорт
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Сборочный лист и импорт/экспорт">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сборочный лист
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xlsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Экспорт XLSX
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xlsx_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Импорт XLSX
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Сценарии использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Сценарии использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Утренний обход
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ожидается рост спроса
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Просмотр избытков
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Анализ конкретного региона
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Загрузка плана из Excel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Что важно помнить
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые ошибки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Остатки
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stock-fixations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Остатки к возмещению
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../incoming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поставки на Ozon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../warehouses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Склады Ozon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logistics-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Карта логистики
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timeslots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Автобронирование слотов
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Акции
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Акции
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../promos/actions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Аналитика акций
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../promos/auto-scenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Автосценарии
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Сценарии
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Сценарии
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/first-week/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Первая неделя
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/find-unprofitable-products/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поиск убыточных товаров
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/ads-efficiency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Эффективность рекламы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scenarios/supply-plan-month/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    План поставок на месяц
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ и поддержка
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    FAQ и поддержка
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/general-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Общие вопросы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/numbers-diff-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Расхождение цифр с Ozon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/api-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Вопросы по API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../support/how-to-ask/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как задать вопрос
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Где найти и общий вид
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Обновление данных
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Параметры расчёта потребности
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чипы статусов запаса
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Фильтры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Фильтры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Категории
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Избранное
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Фильтр по наличию
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Структура таблицы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Структура таблицы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Левая часть (закреплена)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Правая часть — кластеры
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Управление кластерами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Управление столбцами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Подсорт — главное действие
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Подсорт — главное действие">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Заполнить автоматически
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ручная корректировка
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Очистить
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Режим «только подсорт»
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Сборочный лист и импорт/экспорт
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Сборочный лист и импорт/экспорт">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сборочный лист
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xlsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Экспорт XLSX
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xlsx_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Импорт XLSX
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Сценарии использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Сценарии использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Утренний обход
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ожидается рост спроса
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Просмотр избытков
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Анализ конкретного региона
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Загрузка плана из Excel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Что важно помнить
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые ошибки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Частые вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><a href="/">Главная</a> / Логистика</p>
+<h1 id="_1">Планирование поставок<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>«Планирование поставок» — отчёт-калькулятор. На одном экране вы видите все свои товары, все склады Ozon, текущие остатки и расход — и сразу получаете расчёт, <strong>сколько товара куда нужно довезти</strong>, чтобы покрыть будущий спрос.</p>
+<p>Отчёт устроен необычно: товары в строках, <strong>кластеры (региональные группы складов) — в колонках</strong>. По каждому пересечению видно: остаток, ожидаемый расход, рекомендуемая поставка. Дополнительно — десятки фильтров и параметров, чтобы подстроить расчёт под ваш сценарий.</p>
+<p>Этот раздел проводит по всем возможностям отчёта.</p>
+<hr />
+<h2 id="1">1. Где найти и общий вид<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Откройте <strong>Логистика → Планирование поставок</strong>.</li>
+<li>Выберите магазин в левом меню.</li>
+<li>Откроется таблица: товары слева, кластеры по горизонтали.</li>
+</ol>
+<p>В шапке отчёта:</p>
+<ul>
+<li><strong>Параметры расчёта</strong> — период потребности, период анализа заказов, прирост.</li>
+<li><strong>Чипы статусов запаса</strong> — для быстрой фильтрации позиций по дням запаса.</li>
+<li><strong>Чипы категорий</strong> — фильтр по типам товаров.</li>
+<li><strong>Поиск, избранное, фильтр наличия</strong> — дополнительные инструменты.</li>
+<li><strong>Управление кластерами и столбцами</strong> — настройка вида таблицы.</li>
+<li><strong>Действия</strong> — обновить данные, заполнить подсорт, очистить, скачать сборочный лист, импорт/экспорт.</li>
+</ul>
+<hr />
+<h2 id="2">2. Обновление данных<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>Отчёт открывается на последних импортированных остатках (дата и время — в метке <strong>«Обновлено: …»</strong> в шапке). Раз в сутки данные обновляются автоматически, но остатки на складах Ozon меняются в течение дня.</p>
+<p>Кнопка <strong>«Обновить данные»</strong> (слева от «Подсорт») подтягивает <strong>актуальные остатки со складов Ozon прямо на текущий момент</strong> — Доступно, В пути, В черновиках, Возвраты — а также <strong>остатки ваших складов FBS/rFBS</strong>, и пересчитывает потребность. Если данные о заказах устарели, они догружаются тоже.</p>
+<p>Обновление занимает 1–2 минуты — всё это время на кнопке крутится спиннер <strong>«Обновление…»</strong>. Затем кнопка блокируется на час: остатки меняются постепенно, чаще обновлять смысла нет.</p>
+<hr />
+<h2 id="3">3. Параметры расчёта потребности<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>В верхней части toolbar три ключевых параметра, которые определяют <strong>как считается потребность</strong>:</p>
+<ul>
+<li><strong>Период потребности</strong> (по умолчанию 30 дней) — на сколько дней вперёд планируется запас.</li>
+<li><strong>Период анализа заказов</strong> (по умолчанию 30 дней) — за сколько прошлых дней брать среднюю скорость продаж.</li>
+<li><strong>Прирост заказов</strong> (по умолчанию 0%) — поправка к среднесуточным заказам. Например, +50% или −30% — если ожидаете рост или снижение спроса.</li>
+</ul>
+<p>Дополнительно есть чекбоксы:</p>
+<ul>
+<li><strong>«Учитывать FBS»</strong> — включите, если продаёте не только со складов Ozon (FBO), но и со своих складов (FBS/rFBS). Тогда заказы и остатки FBS добавляются к потребности кластера вместе с FBO, а подсорт на FBO рассчитывается так, чтобы закрыть суммарный спрос региона — в том числе тот, что сейчас уходит через FBS. Остаток FBS показывается отдельной колонкой <strong>«FBS остатки»</strong> (включается в настройке столбцов). Заказы FBS учитываются в том кластере, куда они доставлены, включая межкластерные.</li>
+<li><strong>«В черновиках»</strong> — учитывать ли товары, которые вы уже включили в черновики поставок.</li>
+<li><strong>«Мои остатки»</strong> — ограничивать ли подсорт вашими собственными запасами на складе. Если включено и ваши остатки меньше потребности — подсорт ограничивается тем, что у вас реально есть.</li>
+</ul>
+<hr />
+<h2 id="4">4. Чипы статусов запаса<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<p>Над таблицей — четыре чипа со счётчиками SKU в каждом статусе:</p>
+<table>
+<thead>
+<tr>
+<th>Чип</th>
+<th>Дней запаса</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔴 <strong>Дефицит</strong></td>
+<td>≤ 7 дней</td>
+</tr>
+<tr>
+<td>🟡 <strong>Внимание</strong></td>
+<td>8–14 дней</td>
+</tr>
+<tr>
+<td>🟢 <strong>Норма</strong></td>
+<td>15–60 дней</td>
+</tr>
+<tr>
+<td>⚫ <strong>Избыток</strong></td>
+<td>&gt; 60 дней</td>
+</tr>
+</tbody>
+</table>
+<p>Один клик по чипу — фильтр таблицы по этому статусу. Можно выбрать несколько одновременно.</p>
+<hr />
+<h2 id="5">5. Фильтры<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<p>Помимо статусов, есть ещё несколько фильтров.</p>
+<h3 id="_2">Категории<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>Чипы по типам товаров (категориям Ozon). При большом количестве категорий лишние сворачиваются под кнопку «Ещё +N». Один клик — фильтр.</p>
+<h3 id="_3">Поиск<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>Поле поиска принимает offer_id или часть названия. Фильтрует таблицу мгновенно.</p>
+<h3 id="_4">Избранное<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>Кнопка со звёздочкой. После активации в таблице остаются только избранные товары. Сами избранные настраиваются через отдельный модальный диалог — туда заносите SKU, по которым хотите следить особо внимательно.</p>
+<h3 id="_5">Фильтр по наличию<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>Чип с четырьмя режимами:</p>
+<ul>
+<li><strong>Все</strong> — показывать все товары.</li>
+<li><strong>С остатками</strong> — только те, у кого есть остаток.</li>
+<li><strong>С заказами</strong> — только те, у кого были заказы за период.</li>
+<li><strong>Остатки + Заказы</strong> — только активные товары (есть и остаток, и продажи).</li>
+</ul>
+<hr />
+<h2 id="6">6. Структура таблицы<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<p>Каждая строка — товар. Колонки делятся на две части.</p>
+<h3 id="_6">Левая часть (закреплена)<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Карточка товара</strong> — фото, offer_id, название.</li>
+<li><strong>Категория</strong>, <strong>модель</strong> (если назначена), <strong>бренд</strong>.</li>
+<li><strong>Дни запаса</strong> — главная метрика статуса: за сколько дней закончится при текущих темпах.</li>
+<li><strong>В пути</strong> — суммарно товара едет на склады Ozon по всем кластерам.</li>
+<li><strong>В черновиках</strong> — суммарно заявлено в черновиках поставок по всем кластерам.</li>
+<li><strong>Среднесуточные заказы</strong> — сколько в среднем продаётся за день.</li>
+<li><strong>Кратность упаковки</strong> — сколько штук в одной коробке (если настроено).</li>
+<li><strong>Подсорт итого</strong> — суммарный рекомендуемый завоз по всем складам.</li>
+</ul>
+<h3 id="_7">Правая часть — кластеры<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>Каждый кластер (Москва, СПб, Восток, Сибирь и т.д.) — это группа складов в регионе. В заголовке кластера рядом с названием показана <strong>доля отправлений</strong> этого кластера от всех — например, «Москва (34%)»: так сразу видно, какие регионы дают основной поток отгрузок. Под каждым кластером — подколонки-метрики:</p>
+<ul>
+<li><strong>Доступно</strong> — сколько товара сейчас на складах Ozon (FBO) кластера.</li>
+<li><strong>FBS остатки</strong> — доступный остаток на ваших складах (FBS/rFBS) в этом кластере. Виден при включении в настройке столбцов; в потребность входит только при включённом чекбоксе «Учитывать FBS».</li>
+<li><strong>В черновиках</strong> — уже заявлено к поставке в этот кластер.</li>
+<li><strong>В пути</strong> — сколько уже едет к этому кластеру.</li>
+<li><strong>Возвраты</strong> — возвратов за период.</li>
+<li><strong>Продажи в день</strong> — средняя скорость продаж через этот кластер.</li>
+<li><strong>Потребность</strong> — расчётное количество для покрытия будущего спроса. Ноль не показывается (пусто). Если запаса <strong>больше</strong>, чем нужно, потребность становится отрицательной (избыток) и показывается приглушённым курсивом с минусом — например, <code>−15</code>.</li>
+<li><strong>Подсорт</strong> — рекомендуемая поставка (можно редактировать вручную).</li>
+</ul>
+<p>По умолчанию показаны <strong>Доступно, Возвраты, Потребность, Подсорт</strong> — остальные (в т.ч. «FBS остатки») включаются через шестерёнку настройки столбцов (см. ниже).</p>
+<hr />
+<h2 id="7">7. Управление кластерами<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<p>Все кластеры одновременно показывать неудобно — поэтому есть гибкое управление. Кнопка <strong>«Кластеры»</strong> открывает попап:</p>
+<ul>
+<li><strong>Порядок в таблице</strong>: А-Я / по остаткам ↓ / по заказам ↓.</li>
+<li><strong>Показывать</strong>: с движениями (есть остатки или заказы) / все / с остатками / с заказами.</li>
+<li><strong>Список кластеров</strong> чекбоксами, разделён на <strong>Россию</strong> и <strong>СНГ и зарубежье</strong> — включайте только нужные направления.</li>
+</ul>
+<p>Параметры расчёта (период, прирост, учёт «на поставке» и «мои остатки») <strong>общие для всей таблицы</strong> — отдельных настроек по каждому кластеру нет.</p>
+<hr />
+<h2 id="8">8. Управление столбцами<a class="headerlink" href="#8" title="Permanent link">&para;</a></h2>
+<p>Набор столбцов настраивается через <strong>шестерёнку</strong> справа в toolbar (рядом со «Сборочным листом»). В ней две секции:</p>
+<ul>
+<li><strong>Общие метрики</strong> — фикс-столбцы слева (Мои остатки, Достаточно, Дней запаса, В пути, В черновиках, Кратность, Подсорт ∑): видимость и порядок.</li>
+<li><strong>Метрики кластеров</strong> — подколонки каждого кластера (Доступно, FBS остатки, В черновиках, В пути, Возвраты, Продажи в день, Потребность, Подсорт): видимость и порядок применяются сразу ко всем кластерам.</li>
+</ul>
+<p>Дополнительно любой из фикс-столбцов можно скрыть <strong>правым кликом</strong> по его заголовку. Над таблицей появится маркер <strong><code>+N</code></strong> — клик по нему возвращает скрытые столбцы.</p>
+<hr />
+<h2 id="9">9. Подсорт — главное действие<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
+<p>Колонка <strong>«Подсорт»</strong> в каждом кластере — это значение, которое попадёт в итоговую поставку. Основной рабочий цикл:</p>
+<h3 id="_8">Заполнить автоматически<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>Кнопка <strong>«Заполнить подсорт»</strong> в toolbar — рассчитает рекомендуемые значения для всех видимых строк (и видимых кластеров) на основе формулы потребности.</p>
+<p>Если включена <strong>кратность упаковки</strong>, значения округляются до ближайшей коробки вверх — никаких ручных пересчётов в Excel не требуется.</p>
+<h3 id="_9">Ручная корректировка<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>Любую ячейку «Подсорт» можно отредактировать вручную: кликните, введите своё число. Это переопределит автоматическую рекомендацию.</p>
+<h3 id="_10">Очистить<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>Кнопка <strong>«Очистить подсорт»</strong> — обнуляет все значения подсорта в таблице. После очистки можно снова нажать «Заполнить» — пересчитает с нуля.</p>
+<h3 id="_11">Режим «только подсорт»<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>Клик по слову <strong>«Подсорт»</strong> (слева от кнопок «Заполнить» / «Очистить») оставляет в таблице <strong>только столбцы подсорта</strong> — колонку «Подсорт» по каждому кластеру и общий «Подсорт ∑». Остальные метрики и кластерные подколонки временно скрываются. Это удобно для финальной сверки перед отгрузкой: видно только то, что и куда везёте. Повторный клик возвращает все столбцы.</p>
+<hr />
+<h2 id="10">10. Сборочный лист и импорт/экспорт<a class="headerlink" href="#10" title="Permanent link">&para;</a></h2>
+<p>Когда подсорт заполнен — формируется итоговая поставка.</p>
+<h3 id="_12">Сборочный лист<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>Кнопка <strong>«Сборочный лист»</strong> — выгружает архив XLSX-файлов:</p>
+<ul>
+<li>Отдельный файл для каждого склада / кластера.</li>
+<li>Структура соответствует требованиям Ozon — можно использовать как готовый шаблон при оформлении поставки в кабинете Ozon Seller.</li>
+</ul>
+<p>Кнопка активна только если подсорт где-то заполнен (хотя бы одна ненулевая ячейка).</p>
+<h3 id="xlsx">Экспорт XLSX<a class="headerlink" href="#xlsx" title="Permanent link">&para;</a></h3>
+<p>Кнопка экспорта выгружает текущий план целиком в XLSX.</p>
+<h3 id="xlsx_1">Импорт XLSX<a class="headerlink" href="#xlsx_1" title="Permanent link">&para;</a></h3>
+<p>Кнопка импорта позволяет загрузить план из файла:</p>
+<ul>
+<li>Скачайте <strong>шаблон</strong> через ссылку в попапе импорта.</li>
+<li>Заполните в Excel.</li>
+<li>Загрузите обратно — система разнесёт значения по складам и кластерам.</li>
+</ul>
+<hr />
+<h2 id="11">11. Сценарии использования<a class="headerlink" href="#11" title="Permanent link">&para;</a></h2>
+<h3 id="_13">Утренний обход<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Откройте «Планирование».</li>
+<li>Кликните чип <strong>«Дефицит»</strong> — увидите позиции с малым запасом.</li>
+<li>Кликните <strong>«Заполнить подсорт»</strong> — система рассчитает рекомендации.</li>
+<li>Скачайте <strong>«Сборочный лист»</strong> — заводите поставку в Ozon.</li>
+</ol>
+<h3 id="_14">Ожидается рост спроса<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Поставьте <strong>прирост заказов</strong> на нужный процент.</li>
+<li>При необходимости увеличьте <strong>период потребности</strong>.</li>
+<li>Заполните подсорт — рекомендации пересчитаются с учётом нового прироста.</li>
+<li>Сборочный лист → поставка.</li>
+</ol>
+<h3 id="_15">Просмотр избытков<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Кликните чип <strong>«Избыток»</strong> — увидите SKU с запасом более 60 дней.</li>
+<li>По таким товарам подсорт автоматически не нужен — везти больше не требуется.</li>
+</ol>
+<h3 id="_16">Анализ конкретного региона<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Через попап «Кластеры» оставьте только нужный кластер.</li>
+<li>Скрытие остальных делает таблицу компактной.</li>
+<li>Видите, что и сколько там продаётся, и куда нужны поставки.</li>
+</ol>
+<h3 id="excel">Загрузка плана из Excel<a class="headerlink" href="#excel" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Скачайте шаблон через импорт.</li>
+<li>Заполните в удобной программе (1С, Excel, Google Sheets).</li>
+<li>Загрузите обратно — план применится за 1–2 минуты.</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Пример расчёта</p>
+<p>Свитер мужской, средние продажи 10 шт/день. На складе Москвы:</p>
+<ul>
+<li><strong>Среднесуточные заказы:</strong> 10 шт/день</li>
+<li><strong>Период потребности:</strong> 30 дней → нужно 300 шт</li>
+<li><strong>Доступно сейчас:</strong> 150 шт</li>
+<li><strong>В пути:</strong> 50 шт</li>
+<li><strong>Потребность:</strong> 300 − 150 − 50 = <strong>100 шт</strong></li>
+<li><strong>Кратность упаковки</strong> = 12 → <strong>108 шт</strong> (9 коробок)</li>
+</ul>
+<p>Цифру 108 система покажет в столбце «Подсорт» для кластера Москвы. Дальше можно принять её или скорректировать вручную.</p>
+</div>
+<hr />
+<h2 id="12">12. Что важно помнить<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Важно</p>
+<p>Планирование — <strong>рекомендательный</strong> инструмент. Финальное решение по объёму поставки всегда за вами. Если знаете о факторах, которые расчёт не учитывает, корректируйте подсорт вручную.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Подсказка</p>
+<p>Расчёт «дней запаса» считается по средней скорости продаж за период анализа. Если ожидаете изменение спроса (рост или падение) — используйте поле «Прирост заказов».</p>
+</div>
+<hr />
+<h2 id="_17">Частые ошибки<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Не учтена кратность упаковки</strong> — рекомендация показывает количество в штуках, а не в коробках. Включите кратность — система автоматически округлит до ближайшей коробки.</li>
+<li><strong>Планирование на устаревших остатках</strong> — если решаете, что везти, прямо сейчас, нажмите <strong>«Обновить данные»</strong>: остатки на складах Ozon меняются в течение дня, а отчёт открывается на последнем импорте.</li>
+<li><strong>Игнорируется чип «Избыток»</strong> — позиции с большим запасом продолжают копиться, увеличивая складские расходы. Чип сразу показывает их список.</li>
+<li><strong>Заполнение подсорта без проверки вручную</strong> — автоматический расчёт не знает о ваших планах (предстоящая акция, новинка, эксперимент). После авто-заполнения пробегите глазами по самым крупным значениям.</li>
+<li><strong>Использование только базовых параметров</strong> — поле «Прирост заказов» учитывает ожидаемое изменение спроса. Без него расчёт строится строго по прошлой динамике.</li>
+</ul>
+<hr />
+<h2 id="_18">Частые вопросы<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h2>
+<p><strong>Откуда Расчётус знает остатки на складах Ozon?</strong>
+Из импорта данных Ozon. Раз в сутки они обновляются автоматически, а кнопка <strong>«Обновить данные»</strong> подтягивает актуальные остатки на текущий момент (Ozon отдаёт их в реальном времени).</p>
+<p><strong>Как рассчитывается «Период потребности»?</strong>
+Это поле, в котором вы сами задаёте, на сколько дней вперёд планировать запас. Стандартное значение — 30 дней. Меняйте под свою логистику: длинный цикл поставок → больше дней.</p>
+<p><strong>Что делать, если рекомендации по подсорту кажутся завышенными?</strong>
+Проверьте: учтены ли товары «в пути»? Включён ли учёт «В черновиках»? Включена ли «Мои остатки»? Любую ячейку подсорта можно скорректировать вручную — кликните по значению и введите своё число.</p>
+<p><strong>Как сформировать поставку по нескольким SKU сразу?</strong>
+Кнопка «Сборочный лист» создаёт XLSX со всеми артикулами, для которых заполнен подсорт. Распределение по складам уже учтено. Этот файл — готовый шаблон для оформления поставки в кабинете Ozon.</p>
+<p><strong>Можно ли загрузить готовый план из Excel вместо ручного заполнения?</strong>
+Да. Кнопка импорта → скачайте шаблон → заполните в Excel/1С → загрузите обратно. Удобно, если у вас уже есть планирование в другой системе.</p>
+<p><strong>Что значит «Мои остатки» в настройках?</strong>
+Это переключатель: если у вас ограниченный запас собственного товара (на своём складе или у поставщика), включите чекбокс. Тогда подсорт никогда не превысит ваши реальные остатки.</p>
+<p><strong>Можно ли добавить кластер вручную, если я работаю с FBS?</strong>
+Нет, кластеры берутся из Ozon (это официальная региональная сегментация площадки). Для FBS-склада планирование тоже работает, но кластеры всё равно — Ozon-овские.</p>
+<p><strong>Подсорт «Очистить» удаляет данные навсегда?</strong>
+Очищает только текущие значения в таблице, не сами товары. После очистки можно снова нажать «Заполнить» — пересчитает с нуля.</p>
+<p><strong>Зачем избранное, если есть фильтры?</strong>
+Избранное — это ваш личный список SKU для отдельного отслеживания. Включаете «Избранное» — видите только их, без шума. Полезно, если в магазине много товаров, но особое внимание нужно лишь к нескольким.</p>
+<hr />
+<p>Планирование поставок — это рабочий инструмент для расчёта запасов: вы задаёте параметры (период, прирост, учёт «в пути» и «на поставке»), система считает рекомендуемый подсорт. Дальше по одной кнопке формируется сборочный лист — готовый файл для оформления поставки в Ozon.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "navigation.expand", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
